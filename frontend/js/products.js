@@ -1,3 +1,0 @@
-function loadProducts(){
-  const url =   
-}

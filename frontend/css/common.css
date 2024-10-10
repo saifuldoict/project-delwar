@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 body{
     width: 90%;
@@ -12,7 +13,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 10px;
+    padding: 10px 5px;
 }
 header h3{
     font-size: 50px;
@@ -33,16 +34,22 @@ header nav ul li a{
     font-size: 30px;
 }
 
+header a{
+    text-decoration: none;
+    font-size: 30px;
+}
+
 /*product card*/
 .product_card{
     padding: 3px;
     border-radius: 4px;
     border-radius: 7px;
-    box-shadow: 4px 5px 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 
 }
 .product_card img {
-    width: 100%;
+    max-width: 100%;
+    padding: 8px;
 }
 
 .product_card h4 {
@@ -62,6 +69,7 @@ header nav ul li a{
     border-radius: 3px;
     background-color: #ddd;
     cursor: pointer;
+    
 }
 /*--footer--*/
 footer{

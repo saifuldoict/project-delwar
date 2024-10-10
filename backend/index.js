@@ -36,6 +36,9 @@ async function run() {
 
     const productCollection = db.collection('products');
 
+    
+    
+
     /*
     slider management
 
@@ -49,16 +52,17 @@ async function run() {
    /*
     products management
     */
-   app.get('/api/products', async(req, res)=>{
-    const result = await productCollection.find().toArray();
-    res.send(result) 
-   })
+  //  app.get('/api/products', async(req, res)=>{
+    
+  //   res.send(result) 
+  //  })
    app.get('/api/latest-products', async(req, res)=>{
-    const totalPrpducts = await productCollection.countDocuments();
+    const totalProducts = await productCollection.countDocuments();
+    
     let skip = 0;
 
-    if (totalPrpducts > 10){
-      skip = totalPrpducts - 10;
+    if (totalProducts > 10){
+      skip = totalProducts - 10;
     }
     else{
       skip =0;

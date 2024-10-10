@@ -1,0 +1,7 @@
+npm i express cors mongodb
+
+mpm i nodemon
+
+
+user name : doict
+p : doict

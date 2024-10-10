@@ -1,5 +1,5 @@
 function loadSliders(){
-    const url ='../../data.json';
+    const url ='http://localhost:5000/api/get-sliders';
     fetch(url)
     .then(res=> res.json())
     .then(images=>{

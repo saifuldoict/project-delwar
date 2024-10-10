@@ -1,0 +1,81 @@
+[
+    {  
+        "img":"https://img.drz.lazcdn.com/static/bd/p/74fa6007ed4b5d6745e9aa3b810aa393.jpg_400x400q80.jpg_.webp",
+        "productId": "CWD-01",
+        "title": "Apple Airpods",
+        "price":  130,
+        "des":"Apple Airpods Pro / tws wireless earbuds Bluetooth bluetooth headphone With High Base and long Battery"
+    },
+    {
+        "img":"https://img.drz.lazcdn.com/static/bd/p/61b772c8dc208e0b6ca7c015e1da1c1c.jpg_400x400q80.jpg_.webp",
+        "productId": "CWD-02",
+        "title": "Lux Body Wash Black Orchid Scent & Juniper Oil 245ml",
+        "price":  330,
+        "des":"Lux Body Wash Black Orchid Scent & Juniper Oil 245ml"
+
+    },
+    {
+       "img":"https://img.drz.lazcdn.com/g/kf/Sd7b1f52f9f904687b718d13f16aa03227.jpg_200x200q80.jpg_.webp",
+        "productId": "CWD-03",
+        "title": "High Quality Artificial Leather wallet For Men - Brown",
+        "price":  250,
+        "des":" Material: Artificial Leather, This wallet is made of high-quality artificial leather"
+    },
+    {
+        "img":"https://img.drz.lazcdn.com/static/bd/p/533d1b0dd0337025e585937b81c5098f.jpg_200x200q80.jpg_.webp",
+        "productId": "CWD-04",
+        "title": "Face and Eye Puffiness",
+        "price":  130,
+        "des":"Ice Roller for Neck, Face & Eyes Massager | Face and Eye Puffiness"
+    },
+    {
+        "img":"https://img.drz.lazcdn.com/static/bd/p/33f549e52388ce827f9259c776066acb.jpg_200x200q80.jpg_.webp",
+        "productId": "CWD-05",
+        "title": "Mobile Cover and Card Holder Long Wallet - Black",
+        "price":  190,
+        "des":"Product details of Mobile Cover and Card Holder Long Wallet - Black"
+    },
+    {
+        "img":"https://img.drz.lazcdn.com/g/kf/S5d391fb8a595441ea3ab98cf3df9433aI.jpg_200x200q80.jpg_.webp",
+        "productId": "CWD-06",
+        "title": "Sport Silicone Strap For Xiaomi Smart Band",
+        "price":  284,
+        "des":"Silicone Strap For Xiaomi Smart Band 8 Active sport Replacement Watchbands correa Bracelet Xiaomi Band 8 Active belt Accessories"
+    },
+    {
+        "img":"https://img.drz.lazcdn.com/static/bd/p/c468322609d9c2c304f7e48d2a5c9899.jpg_200x200q80.jpg_.webp",
+        "productId": "CWD-07",
+        "title": "Travel Bag Small School Bag - Bag For Boys - School Bag For Boys - Bag For Men",
+        "price":  530,
+        "des":"Staylish Mini Backpack Bags Travel Bag Small School Bag - Bag For Boys - School Bag For Boys - Bag For Men - College Bag For Boys - Bag For Boys - Bag For Boys - Bag - school bag"
+    },
+    {
+        "img":"https://img.drz.lazcdn.com/g/kf/Saec80b10c164463787c8e1ffde54cf5fU.jpg_200x200q80.jpg_.webp",
+        "productId": "CWD-08",
+        "title": "Watch For Men Waterproof Luminous",
+        "price":  1300,
+        "des":"POEDAGAR 930 Watch For Men Waterproof Luminous Date Week Stainless Steel Men Fashion Watch - DLC Watch"
+    },
+    {
+        "img":"https://img.drz.lazcdn.com/g/kf/S654b687826b64202b60b084a0e387970L.jpg_200x200q80.jpg_.webp",
+        "productId": "CWD-09",
+        "title": "5PCS Set Womens Fashion Quartz Watch ",
+        "price":  130,
+        "des":"5PCS Set Womens Fashion Quartz Watch Female Clock Rose Red Butterfly Luxury Brand Design Women Watches Simple Ladies Wrist Watch"
+    },
+    {
+        "img":"https://img.drz.lazcdn.com/g/kf/S37e1280953db419e8d3ca9614b4ac1ecb.jpg_200x200q80.jpg_.webp",
+        "productId": "CWD-10",
+        "title": "Women Fashion Watch Casual Bracelet Watches",
+        "price":  390,
+        "des":"Women Fashion Watch Casual Bracelet Watches Glasses Set Ladies Simple Dial Quartz Wristwatches Dress Clock Montre Femme"
+    },
+    {
+        "img":"https://img.drz.lazcdn.com/static/bd/p/20d01604ac05bb0651b5abca25fdca86.jpg_200x200q80.jpg_.webp",
+        "productId": "CWD-11",
+        "title": "Pond's Face Wash Bright Beauty 100g",
+        "price":  199,
+        "des":"Product details of Pond's Face Wash Bright Beauty 100g"
+    }
+    
+]
