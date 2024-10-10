@@ -1,5 +1,7 @@
+import { makeUrl } from "./shared/commonFunction.js";
 import productCard from "./shared/productCard.js";
 function loadProduct(){
+    
     const url = 'http://localhost:5000/api/latest-products';
     fetch(url)
     .then(res=> res.json())
