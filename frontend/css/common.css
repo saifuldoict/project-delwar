@@ -57,8 +57,8 @@ header a{
 
 .product_card img:hover {
 
-    width: 80%
-    justi
+    
+    
     
 }
 
@@ -68,6 +68,13 @@ header a{
     text-align: center;
     cursor: pointer;
 }
+
+.product_card h4:hover {
+    font-size: 25px;
+    color: rgb(238, 84, 37);
+}
+
+
 .product_card p {
     margin: 10px 0;
     text-align: center;
@@ -79,7 +86,7 @@ header a{
     width: 80%;
     font-size: 20px;
     border: none;
-    margin-left: 20px;
+    margin-left: 22px;
     margin-bottom: 10px;
     padding: 7px 5px;
     border-radius: 5px;
@@ -93,6 +100,18 @@ header a{
     
 }
 
+/*--common button--*/
+.btn{
+    
+    background-color: black;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+
+}
 
 /*--footer--*/
 footer{

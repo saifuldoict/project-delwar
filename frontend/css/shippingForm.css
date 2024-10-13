@@ -1,0 +1,33 @@
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+form{
+    width: 400px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+}
+form h2{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+form label{
+    display: block;
+}
+form input{
+    width: 100%;
+    margin-bottom: 7px;
+
+}
+form div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6px;
+}

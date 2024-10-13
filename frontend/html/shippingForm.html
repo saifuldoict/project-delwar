@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/common.css">
-    <title>Dashboard</title>
+    <link rel="stylesheet" href="../css/shippingForm.css">
+    <title>Shipping Form</title>
 </head>
 <body>
     <header>
@@ -18,8 +19,29 @@
             </ul>
         </nav>
     </header>
-    <div id="root"></div>
-   
+
+<!--shipping Form-->
+<section>
+    <form action="" id="shipping-form">
+        <h2>Shipping info</h2>
+        <label for="name">Name</label>
+        <input type="text" name="name" placeholder="text..." required>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" placeholder="type email..." required>
+
+        <label for="phone">phone</label>
+        <input type="phone" name="phone" placeholder="phone..." required>
+
+        <div>
+            <button class="btn">place order</button>
+        </div>
+
+    </form>
+</section>
+  
+
+
     <footer>
         <div id="footer">
             <h3>About Us</h3>
@@ -35,7 +57,7 @@
             </ul>
         </div>
         <div id="footer">
-            <h3>Custome Care</h3>
+            <h3>Customer Care</h3>
             <ul>
                 <li><a href="">Help Center</a></li>
                 <li><a href="">Contart Us</a></li>
@@ -44,7 +66,9 @@
            
         </div>
 
-    </footer> 
-    <script type="module" src="../js/Dashboard.js"></script>
+    </footer>
+
+
+    <script type="module" src="../js/shippingForm.js"></script>
 </body>
 </html>

@@ -1,0 +1,15 @@
+#our-products-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+
+}
+
+.all_products{
+    margin: 20px 0;
+}
+
+.all_products h4{
+    font-size: 20px;
+    margin-bottom: 20px;
+}

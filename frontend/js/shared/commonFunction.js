@@ -5,7 +5,24 @@ export const sliceTitle = (title)=>{
 
 
 export const makeUrl = (path)=>{
-    const url = `http://localhost:5000/api ${path}`;
+    const url = `http://localhost:5000/api${path}`;
     return url;
     
 }
+
+
+export const useParams = ()=>{
+    const queryParams = new URLSearchParams(window.location.search);
+    const parse= queryParams;
+    const querys = [...parse];
+ 
+    const obj={};
+     
+    querys.forEach((query)=>{
+        
+        obj[query[0]]= query[1];
+
+    });
+   // console.log(obj)
+    return obj;
+};

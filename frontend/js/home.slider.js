@@ -1,8 +1,9 @@
 import { makeUrl } from "./shared/commonFunction.js";
 
 function loadSliders(){
-    const url ='http://localhost:5000/api/get-sliders';
-    // const url= makeUrl('/get-sliders') কাজ করে না দেখতে হবে।
+    const url = makeUrl('/get-sliders')
+    // const url ='http://localhost:5000/api/get-sliders';
+    
     fetch(url)
     .then(res=> res.json())
     .then(images=>{

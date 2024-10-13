@@ -1,7 +1,7 @@
 
 const express = require ('express');
 const cors = require ('cors');
-const { MongoClient, ServerApiVersion } = require('mongodb');
+const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 const dotenv = require ('dotenv').config();
 
 
@@ -35,6 +35,7 @@ async function run() {
     const sliderCollection = db.collection('Sliders');
 
     const productCollection = db.collection('products');
+    const orderCollection = db.collection('Orders');
 
     
     
@@ -52,10 +53,13 @@ async function run() {
    /*
     products management
     */
-  //  app.get('/api/products', async(req, res)=>{
-    
-  //   res.send(result) 
-  //  })
+   app.get('/api/products', async(req, res)=>{
+    const result =await productCollection.find().toArray();
+    res.send(result) 
+   });
+
+
+
    app.get('/api/latest-products', async(req, res)=>{
     const totalProducts = await productCollection.countDocuments();
     
@@ -72,10 +76,24 @@ async function run() {
 
     res.send(result);
 
-    
-
-
    });
+
+// find single product
+   app.get('/api/get-product-by/:id', async(req, res)=>{
+    const {id}= req.params;
+
+    const result = await productCollection.findOne({_id : new ObjectId(id)});
+    res.send(result);
+   })
+
+
+/*order management*/
+app.post('/api/insert-new-order', async(req, res)=>{
+  const data = req.body;
+  const result = orderCollection.insertOne(data);
+  res.send(result);
+
+})
 
 
     app.listen(process.env.PORT,  ()=>{(`the server is running.`);
