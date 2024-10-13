@@ -55,6 +55,13 @@ header a{
     cursor: pointer;
 }
 
+.product_card img:hover {
+
+    width: 80%
+    justi
+    
+}
+
 .product_card h4 {
     font-size: 25px;
     color: rgb(240, 15, 228);
